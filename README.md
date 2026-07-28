@@ -1,3 +1,11 @@
+
+Smart Factory IoT Cloud Architecture ( ThingsBoard, MQTT, C++, JSON)
+
+Designed a distributed IoT architecture using MQTT over TCP/IP to route real-time telemetry from simulated edge nodes (ATmega328P) to a cloud platform.
+Configured ThingsBoard Cloud to visualize sensor data (temperature, humidity, vibration) and process automated rule chains for hazard response and remote actuator control. 
+Documented system topology and exported JSON dashboard blueprints in a public GitHub repository to demonstrate full-stack IoT integration and data routing capabilities.
+
+
 ```mermaid
 graph TD
     subgraph EdgeLayer [Edge Layer: Perception & Actuation]
