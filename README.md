@@ -1,3 +1,4 @@
+<img width="1025" height="201" alt="Screenshot 2026-08-15 155954" src="https://github.com/user-attachments/assets/16450331-245a-401c-8caf-72612f768c77" />
 # Smart Factory IoT Monitoring System
 
 An end-to-end distributed IoT monitoring and supervisory control system built for industrial environments. This project simulates real-time data collection from a factory production line and a warehouse, utilizing MQTT for telemetry transport and ThingsBoard for cloud visualization, automated rule-engine alerts, and remote actuation.
@@ -17,6 +18,7 @@ The architecture consists of two edge nodes (Arduino Uno) simulated in PicsimLab
 ---
 
 ## 🏗️ System Architecture
+<img width="1024" height="332" alt="Screenshot 2026-08-15 160104" src="https://github.com/user-attachments/assets/6913692e-6015-48e3-ab14-ff0ee13a3045" />
 
 * **Perception Layer (Edge):** Arduino Uno (ATmega328P) via PicsimLab. Sensors include DHT22, LM35, PIR, LDR, Potentiometer, and Reed Switches.
 * **Network Layer:** W5100 Ethernet interface publishing QoS 1 messages via MQTT v3.1.1 over TCP/IP (Port 1883).
